@@ -2,7 +2,7 @@
 name: revisar
 description: Revisa um projeto de pesquisa de mestrado ou doutorado como uma banca faria (coerência, hipóteses, método, aderência à linha, ética CEP/CEUA/SISBIO/SisGen/LGPD, referencial, ABNT, cronograma) e grava `_banca.md` com comentários classificados por tipo e gravidade, trecho citado, sugestão e perguntas prováveis da arguição. Use quando pedirem revisão de projeto de pesquisa, simulação de banca, preparação para qualificação ou seleção de pós-graduação.
 argument-hint: <projeto.pdf|.docx|.md> [edital] [ementa-da-linha] [lattes-do-orientador]
-allowed-tools: Read, Write, Edit, Glob, Bash(markitdown *), Bash(python *), Bash(python3 *), Bash(py *)
+allowed-tools: Read, Write, Edit, Glob, Bash(markitdown *), Bash(python *), Bash(python3 *), Bash(py *), PowerShell(markitdown *), PowerShell(python *), PowerShell(py *)
 ---
 
 # /banca:revisar: banca simulada
@@ -142,6 +142,10 @@ tomar antes).
    seção.
 2. Rode a autochecagem (use `python`, `python3` ou `py`, o que existir):
    `python "${CLAUDE_SKILL_DIR}/scripts/checar_trechos.py" "<pasta>/_banca.md" "<texto de referência>"`
+   Rode como **um comando só**, com caminhos absolutos: sem `cd`, sem `&&`, sem `|`, sem
+   redirecionamento (comandos compostos pedem aprovação extra e travam em modo não interativo).
+   Se mesmo assim o script não puder rodar, faça a busca de cada trecho no texto à mão e escreva
+   no registro da autochecagem que o script não foi executado.
 3. Para cada linha `FALHA` ou `SEM TRECHO`: volte ao texto de referência. Se o problema é real e
    existe um trecho que o mostra, substitua pelo trecho copiado literalmente. Se não achar trecho,
    **apague o comentário**, renumere e tire a referência a ele da arguição. Rode de novo até não

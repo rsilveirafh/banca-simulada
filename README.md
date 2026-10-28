@@ -29,11 +29,18 @@ Trecho do projeto:
 > H1: A fragmentação florestal influencia a comunidade de lagartos de serrapilheira, podendo
 > aumentar ou diminuir a riqueza e a abundância de acordo com as condições locais de cada fragmento.
 
-Comentário esperado da banca:
+Comentário que a skill escreveu no teste de 2026-10-28 (copiado do `_banca.md`):
 
-> **C01 · bloqueante · hipóteses.** Nenhum resultado refuta H1: aumento, redução ou ausência de
-> efeito são todos compatíveis com ela. Sugestão: dizer a direção esperada e qual resultado
-> derrubaria a hipótese, ligando-a a uma variável medida no método. Base: HI2.
+```markdown
+### C01 · bloqueante · hipóteses
+- **Onde:** seção 3
+- **Trecho:** "A fragmentação florestal influencia a comunidade de lagartos de serrapilheira, podendo aumentar ou diminuir a riqueza e a abundância de acordo com as condições locais de cada fragmento."
+- **Problema:** H1 aceita qualquer resultado: aumento, queda ou ausência de diferença podem ser lidos como "condições locais". Não há resultado possível que a contrarie, então ela não é testável. Como H1 é a hipótese que cobre a pergunta inteira (riqueza e abundância), o projeto fica sem hipótese central testável. Ela também fala em "fragmentação" e "condições locais", que não são as variáveis medidas (a área é).
+- **Sugestão:** reformular H1 com direção ou forma ligada à variável que o método mede (área do fragmento) e escrever, para si, qual resultado a refutaria. Se a decisão for não prever direção, assumir o caráter exploratório e justificar isso.
+- **Base:** HI2, HI3
+```
+
+As saídas completas dos testes estão em [testes/execucoes/](testes/execucoes/).
 
 ## Como funciona
 
