@@ -1,0 +1,8 @@
+# pasta de trabalho e saída da skill (gerada ao rodar /banca:revisar)
+_banca/
+_banca.md
+__pycache__/
+*.pyc
+# instruções locais (não versionar)
+CLAUDE.md
+.claude/

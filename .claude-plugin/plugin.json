@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "banca",
+  "displayName": "Banca simulada",
+  "version": "0.1.0",
+  "description": "Revisa projeto de pesquisa de mestrado ou doutorado como uma banca: coerência, hipóteses, método, aderência à linha, ética (CEP, CEUA, SISBIO, SisGen, LGPD), referencial, ABNT e cronograma. Aponta e sugere; não reescreve.",
+  "author": {
+    "name": "Ricardo Silveira",
+    "url": "https://github.com/rsilveirafh"
+  },
+  "license": "MIT",
+  "keywords": ["pesquisa", "pos-graduacao", "projeto-de-pesquisa", "banca", "etica-em-pesquisa", "abnt"]
+}
