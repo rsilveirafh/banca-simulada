@@ -1,14 +1,30 @@
-# banca: banca simulada para projeto de pesquisa
+# banca-simulada: revisão de projeto de pesquisa como uma banca faria
 
-Plugin do Claude Code que lê um projeto de mestrado ou doutorado e faz o que uma banca faria:
-aponta problemas de coerência, hipóteses, método, aderência à linha, ética, referencial,
+Plugin do Claude Code que lê um projeto de pesquisa e faz o que uma banca ou um comitê avaliador
+faria: aponta problemas de coerência, hipóteses, método, aderência, ética, referencial,
 normalização e cronograma, cada um com o **trecho exato** do projeto, a **gravidade** e uma
-sugestão. No fim, lista as perguntas prováveis da arguição.
+sugestão. No fim, lista as perguntas prováveis da arguição ou do parecer.
 
 **Revisão, não redação.** A skill aponta e sugere. Não reescreve o projeto, não entrega texto
 pronto e não "melhora" a sua redação.
 
-> Versão 0.1 (MVP). Nome e catálogo ainda provisórios.
+> Versão 0.2. A 0.1 foi testada com projetos de mestrado; a calibração para os outros tipos é nova
+> e ainda não tem projeto de teste próprio.
+
+## Tipos de projeto
+
+Os oito eixos são os mesmos para todos. O tipo muda o prazo de referência, contra o que a
+aderência é medida e o que pesa mais (detalhes na [rubrica](skills/revisar/rubrica.md)).
+
+| Tipo | Aderência medida contra | O que pesa mais |
+|---|---|---|
+| TCC | orientador e curso | viabilidade, pergunta clara, método repetível |
+| Iniciação científica | projeto do orientador e edital da bolsa | viabilidade, plano de trabalho do estudante |
+| Seleção de mestrado ou doutorado | linha, ementa e edital do programa | aderência à linha, viabilidade no prazo |
+| Qualificação | linha e banca do programa | método pronto para executar, cronograma até a defesa |
+| Pós-doutorado | supervisor, grupo e edital da bolsa | originalidade, independência, produtos previstos |
+| Edital de fomento | objetivo e critérios da chamada | mérito, metas e indicadores, equipe, orçamento |
+| Concurso docente | área e subárea do concurso | encaixe na área, viabilidade no departamento, ensino e extensão |
 
 ## O que ela entrega
 
@@ -66,34 +82,35 @@ Requisitos: [Claude Code](https://code.claude.com/docs), Python 3 e, para PDF e 
 pip install "markitdown[pdf,docx]"
 ```
 
-Enquanto o repositório não é público, instale a partir da pasta local (ela é ao mesmo tempo o
-plugin e um catálogo de plugins):
+Pelo catálogo de plugins [rsilveirafh/claude-plugins](https://github.com/rsilveirafh/claude-plugins):
 
 ```bash
-claude plugin marketplace add ./banca
-claude plugin install banca@rsilveirafh-plugins
+claude plugin marketplace add rsilveirafh/claude-plugins
+claude plugin install banca-simulada@rsilveirafh-plugins
 ```
 
-Para testar sem instalar:
+Para testar sem instalar, a partir de um clone deste repositório:
 
 ```bash
-claude --plugin-dir ./banca
+claude --plugin-dir ./banca-simulada
 ```
 
-Confira os manifestos com `claude plugin validate ./banca`.
+Confira o manifesto com `claude plugin validate ./banca-simulada`.
 
 ## Uso
 
 Dentro do Claude Code, na pasta do projeto:
 
 ```text
-/banca:revisar meu-projeto.pdf
-/banca:revisar meu-projeto.docx edital.pdf ementa-linha.txt
+/banca-simulada:revisar meu-projeto.pdf
+/banca-simulada:revisar meu-projeto.docx edital.pdf ementa-linha.txt
+/banca-simulada:revisar projeto-concurso.pdf edital-concurso.pdf area-do-concurso.txt
 ```
 
-Argumentos: o projeto (PDF, DOCX ou Markdown) e, opcionalmente, o edital, a ementa da linha e o
-resumo do Lattes do orientador (arquivo ou texto colado). Sem a ementa e o Lattes, a aderência
-vira pergunta, não julgamento.
+Argumentos: o projeto (PDF, DOCX ou Markdown) e, opcionalmente, o edital (do programa, da chamada
+ou do concurso), a ementa da linha ou a descrição da área do concurso, e o resumo do Lattes do
+orientador ou supervisor (arquivo ou texto colado). A skill pergunta o tipo de projeto ao mostrar
+o mapa. Sem a ementa e o Lattes, a aderência vira pergunta, não julgamento.
 
 A skill cria `_banca/` (arquivos intermediários) e `_banca.md` (resultado). Edite ou apague à
 vontade.
@@ -129,11 +146,11 @@ e um gabarito (erro, tipo, gravidade, trecho exato):
 Para rodar:
 
 1. Copie **só** o `projeto.md` para uma pasta vazia (a skill não pode ver o gabarito).
-2. Nessa pasta, rode `/banca:revisar projeto.md`, confirme o mapa e informe "mestrado, 24 meses,
+2. Nessa pasta, rode `/banca-simulada:revisar projeto.md`, confirme o mapa e informe "mestrado, 24 meses,
    sem edital, ementa ou Lattes". Em modo não interativo:
    ```bash
-   claude -p "/banca:revisar projeto.md" --plugin-dir <caminho>/banca --output-format json
-   claude -p "O mapa está correto. ..." --resume <session_id> --plugin-dir <caminho>/banca
+   claude -p "/banca-simulada:revisar projeto.md" --plugin-dir <caminho>/banca-simulada --output-format json
+   claude -p "O mapa está correto. ..." --resume <session_id> --plugin-dir <caminho>/banca-simulada
    ```
 3. Compare com o gabarito:
    ```bash
@@ -154,13 +171,12 @@ python skills/revisar/scripts/checar_trechos.py _banca.md projeto.md
 ## Estrutura
 
 ```text
-banca/
+banca-simulada/
 ├── .claude-plugin/
-│   ├── plugin.json          manifesto do plugin
-│   └── marketplace.json     catálogo local (provisório)
+│   └── plugin.json          manifesto do plugin
 ├── skills/revisar/
-│   ├── SKILL.md             etapas da skill /banca:revisar
-│   ├── rubrica.md           8 eixos, perguntas e critérios de gravidade
+│   ├── SKILL.md             etapas da skill /banca-simulada:revisar
+│   ├── rubrica.md           calibração por tipo, 8 eixos, perguntas e critérios de gravidade
 │   ├── referencias/normas.md normas citáveis, com fonte e data de conferência
 │   └── scripts/checar_trechos.py  autochecagem de trechos
 └── testes/                  projetos fictícios, gabaritos, avaliador e resultados
@@ -168,10 +184,11 @@ banca/
 
 ## In English
 
-`banca` is a Claude Code plugin that reviews a Brazilian master's or PhD research proposal the way
-a thesis committee would. It maps the proposal (question, aims, hypotheses, methods, timeline),
+`banca-simulada` is a Claude Code plugin that reviews a Brazilian research proposal the way a
+committee would: undergraduate thesis, undergraduate research grant, master's or PhD (selection or
+qualifying exam), postdoc, funding call, or the research-project exam in a faculty hiring contest. It maps the proposal (question, aims, hypotheses, methods, timeline),
 asks the author to confirm the map, then reviews it along eight axes (internal coherence,
-hypotheses, methods, fit with the research line, research ethics under Brazilian rules, literature,
+hypotheses, methods, fit with the research line, call or contest area, research ethics under Brazilian rules, literature,
 ABNT formatting, feasibility), quoting the exact passage for every comment, rating its severity and
 listing the questions the committee is likely to ask. A script drops any comment whose quote is not
 in the text. It reviews; it does not rewrite the proposal, and it does not replace an advisor or a

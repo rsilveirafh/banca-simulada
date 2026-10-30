@@ -1,4 +1,4 @@
-# pasta de trabalho e saída da skill (gerada ao rodar /banca:revisar)
+# pasta de trabalho e saída da skill (gerada ao rodar /banca-simulada:revisar)
 _banca/
 _banca.md
 __pycache__/

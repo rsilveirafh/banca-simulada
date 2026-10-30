@@ -8,7 +8,7 @@ Programa de Pós-Graduação em Saúde Coletiva (PPGSC), Universidade Federal do
 - **Linha de pesquisa:** Linha 3, Políticas, Planejamento e Gestão em Saúde
 - **Duração prevista:** 24 meses (março de 2027 a fevereiro de 2029)
 
-*Projeto fictício, escrito para testar a skill /banca:revisar. Pessoas, instituição, programa, serviço de saúde e números do estudo são inventados.*
+*Projeto fictício, escrito para testar a skill /banca-simulada:revisar. Pessoas, instituição, programa, serviço de saúde e números do estudo são inventados.*
 
 ## Resumo
 

@@ -8,7 +8,7 @@ Programa de Pós-Graduação em Biodiversidade e Conservação (PPGBC), Universi
 - **Linha de pesquisa:** Linha 2, Sistemática e Evolução de Vertebrados
 - **Duração prevista:** 24 meses (março de 2027 a fevereiro de 2029)
 
-*Projeto fictício, escrito para testar a skill /banca:revisar. Pessoas, instituição, programa, locais e números do estudo são inventados.*
+*Projeto fictício, escrito para testar a skill /banca-simulada:revisar. Pessoas, instituição, programa, locais e números do estudo são inventados.*
 
 ## Resumo
 
