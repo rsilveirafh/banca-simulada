@@ -115,8 +115,8 @@ Use **só** `referencias/normas.md`. Primeiro detecte; depois aponte.
 
 | Código | Pergunta |
 |---|---|
-| ET1 | Há **seres humanos** (entrevista, questionário, prontuário, amostra biológica, imagem)? Então: CEP/CONEP (Res. 466/2012; 510/2016 para ciências humanas e sociais), TCLE, e assentimento se houver menores ou incapazes. |
-| ET2 | Há **povos indígenas**? Então: Res. 304/2000 (anuência da comunidade, CONEP). |
+| ET1 | Há **seres humanos** (entrevista, questionário, prontuário, amostra biológica, imagem)? Então: CEP (sistema de ética em pesquisa, Lei 14.874/2024; Res. 466/2012; 510/2016 para ciências humanas e sociais), TCLE, e assentimento se houver menores ou incapazes. TCC, dissertação e tese não são dispensados de CEP por serem atividade de ensino (Ofício Circular 12/2023). |
+| ET2 | Há **povos indígenas**? Então: Res. 304/2000 (anuência da comunidade); área temática especial, analisada por CEP acreditado. |
 | ET3 | Há **vertebrados** capturados, manipulados, marcados, coletados ou eutanasiados? Então: CEUA (Lei 11.794/2008) e, para fauna silvestre in situ, SISBIO (Portaria ICMBio 748/2022). |
 | ET4 | Há **patrimônio genético** (tecido, DNA, extrato) com pesquisa, sequenciamento ou remessa ao exterior? Então: cadastro no SisGen (Lei 13.123/2015, Art. 12; Decreto 8.772/2016). |
 | ET5 | Há **dados pessoais** ou sensíveis (saúde, etnia, prontuário)? Então: plano de anonimização ou pseudonimização, guarda institucional (LGPD, Art. 7º, 11 e 13). |

@@ -12,11 +12,35 @@ Regras de uso pela skill:
 - Os textos das bibliotecas virtuais (BVS, Planalto) avisam que não substituem a publicação no
   Diário Oficial da União. Para uso formal, a pessoa confere no DOU.
 
-Última conferência geral: 2026-10-28.
+Última conferência geral: 2026-10-30.
 
 ---
 
-## 1. Pesquisa com seres humanos (sistema CEP/CONEP)
+## 1. Pesquisa com seres humanos (sistema de ética em pesquisa)
+
+### 1.0 Transição para o SINEP (ler antes do resto da seção)
+- **Lei nº 14.874, de 28 de maio de 2024:** "dispõe sobre a pesquisa com seres humanos e institui
+  o Sistema Nacional de Ética em Pesquisa com Seres Humanos" (SINEP). **Art. 5º:** o sistema tem
+  uma instância nacional de ética em pesquisa e uma instância de análise ética, "representada
+  pelos CEPs". **Art. 65:** vigência 90 dias após a publicação.
+  Fonte: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14874.htm (conferido em
+  2026-10-30).
+- **Decreto nº 12.651, de 7 de outubro de 2025** (regulamenta a lei). **Art. 37:** CEPs já
+  credenciados e acreditados continuam assim até nova avaliação pela Instância Nacional de Ética
+  em Pesquisa (INAEP). **Art. 39:** as normas do CNS (466, 510, 304 etc.) "permanecem válidas"
+  no que não contrariarem a lei e o decreto. **Art. 40:** a Comissão Nacional de Ética em
+  Pesquisa (CONEP) "continuará a atuar como instância recursal até a posse dos membros" da INAEP.
+  Fonte: https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12651.htm (conferido
+  em 2026-10-30).
+- **Notas Técnicas do Ministério da Saúde** (fonte: https://www.gov.br/saude/pt-br/composicao/orgaos-colegiados/inaep/notas-tecnicas-e-informativas,
+  conferidas em 2026-10-30): na transição, protocolo de área temática conta como risco elevado e
+  é analisado por **CEP acreditado** (NT 43/2025-DECIT/SECTICS/MS, itens 2.8, 2.14 e 4.27); o CEP
+  credenciado identifica a área temática e encaminha à INAEP, que distribui a um CEP acreditado
+  (NT 1/2026-DECIT/SCTIE/MS, item 3.2).
+- **Uso pela skill:** onde as resoluções abaixo dizem "Sistema CEP/CONEP" ou "CONEP", escrever
+  "sistema de ética em pesquisa (CEP)". **Não escrever que o protocolo "vai à CONEP"** nem citar a
+  CONEP como instância de aprovação; para área temática, escrever "CEP acreditado". Detalhes de
+  tramitação que mudam rápido: recomendar consulta ao CEP da instituição.
 
 ### 1.1 Resolução CNS nº 466, de 12 de dezembro de 2012
 - **Fonte:** https://bvsms.saude.gov.br/bvs/saudelegis/cns/2013/res0466_12_12_2012.html
@@ -28,18 +52,37 @@ Regras de uso pela skill:
   incapazes: além do consentimento do responsável, há o assentimento do participante.)
 - **Item II.23:** Termo de Consentimento Livre e Esclarecido (TCLE) = "documento no qual é
   explicitado o consentimento livre e esclarecido do participante e/ou de seu responsável legal".
+- **Itens II.7 e II.21:** indenização = "cobertura material para reparação a dano, causado pela
+  pesquisa ao participante"; ressarcimento = compensação material "exclusivamente de despesas do
+  participante e seus acompanhantes".
+- **Item IV.3, alíneas g e h:** o TCLE explicita a garantia de ressarcimento e a de indenização.
+- **Item IV.8:** "a dispensa do TCLE deve ser justificadamente solicitada" pelo pesquisador
+  responsável, quando obter o consentimento for inviável ou arriscar a privacidade, a
+  confidencialidade ou a relação de confiança. A 466 não tem regra própria sobre prontuário.
+- **Item V.7:** o participante que sofrer dano decorrente da pesquisa tem direito à indenização,
+  por parte do pesquisador, do patrocinador e das instituições envolvidas.
 - **Item VII.1:** "Pesquisas envolvendo seres humanos devem ser submetidas à apreciação do
-  Sistema CEP/CONEP".
+  Sistema CEP/CONEP" (hoje, o sistema de ética em pesquisa: ver 1.0).
+- **Item IX.4:** áreas temáticas especiais: 1 genética humana; 2 reprodução humana;
+  3 equipamentos e dispositivos terapêuticos novos ou não registrados no país; 4 novos
+  procedimentos terapêuticos invasivos; 5 estudos com populações indígenas; 6 organismos
+  geneticamente modificados, células-tronco embrionárias e organismos de alto risco coletivo;
+  7 biobancos; 8 pesquisas coordenadas ou patrocinadas do exterior (salvo copatrocínio do Governo
+  Brasileiro); 9 projetos que o CEP, justificadamente, considere merecedores dessa análise. O
+  texto diz que essas áreas vão à CONEP; hoje vão a CEP acreditado (ver 1.0).
 - **Item XI.1:** a responsabilidade do pesquisador "é indelegável e indeclinável".
 - **Item XI.2, alínea a:** cabe ao pesquisador "apresentar o protocolo devidamente instruído ao
   CEP ou à CONEP, aguardando a decisão de aprovação ética" antes de iniciar a pesquisa.
-  (Base para apontar coleta de dados iniciada ou prevista antes da aprovação.)
+  (Base para apontar coleta de dados iniciada ou prevista antes da aprovação. Ao citar, falar só
+  em "aprovação do CEP": ver 1.0.)
 - **Item XIII.3:** as especificidades éticas das pesquisas em ciências humanas e sociais
   "serão contempladas em resolução complementar" (ver 1.2).
 - **Disposições finais (XIV):** revoga as Resoluções CNS 196/96, 303/2000 e 404/2008.
-- Pontos **[conferir]**: área temática especial e quando o protocolo vai à CONEP (item IX e
-  normas operacionais); regras sobre uso de prontuário e dispensa de TCLE; ressarcimento e
-  indenização. Não citar número de item para esses pontos.
+- Itens II.7, II.21, IV.3, IV.8, V.7 e IX.4 conferidos em 2026-10-30.
+- Banco de dados e dado secundário (dispensa de novo consentimento, dados anonimizados): Res. CNS
+  738/2024, arts. 20, 25 e 26, https://bvsms.saude.gov.br/bvs/saudelegis/cns/2025/res_0738_22_01_2025.html
+  (conferido em 2026-10-30). Pode citar a resolução e os artigos; o detalhe de cada hipótese é
+  **[conferir]**. Uso de prontuário: recomendar consulta ao CEP, sem citar norma.
 
 ### 1.2 Resolução CNS nº 510, de 7 de abril de 2016
 - **Fonte:** https://bvsms.saude.gov.br/bvs/saudelegis/cns/2016/res0510_07_04_2016.html
@@ -55,20 +98,33 @@ Regras de uso pela skill:
   individual; VI - revisão da literatura científica; VII - aprofundamento teórico de situações
   da prática profissional, sem dados que identifiquem o sujeito; VIII - atividade exclusivamente
   de educação, ensino ou treinamento, sem finalidade de pesquisa.
-  (Na página consultada, o último inciso aparece numerado como "III", provável erro de digitação;
-  confira no DOU antes de citar o número.)
+  (Numeração conferida no PDF do CNS em 2026-10-30: o último inciso é o VIII. A página da BVS
+  mostra "III" por erro de digitação.)
+- **Art. 1º, § 1º:** não se enquadram no inciso VIII os Trabalhos de Conclusão de Curso,
+  monografias e similares, que devem ser apresentados ao sistema de ética em pesquisa. Fonte:
+  https://www.gov.br/conselho-nacional-de-saude/pt-br/atos-normativos/resolucoes/2016/resolucao-no-510.pdf
+  (conferido em 2026-10-30).
 - **Art. 15:** o "Registro do Consentimento e do Assentimento" é o meio pelo qual se explicita o
   consentimento; pode ser escrito, sonoro, em imagem ou em outra forma adequada à pesquisa.
 - **Art. 16:** o pesquisador justifica o meio de registro escolhido.
-- Pontos **[conferir]**: graduação de risco e tramitação específica de CHS.
+- **Art. 18:** "a definição e a gradação do risco resultam da apreciação dos seus procedimentos
+  metodológicos".
+- **Art. 21:** o risco é graduado em mínimo, baixo, moderado ou elevado; a tramitação varia
+  conforme o grau (§ 1º).
+- **Art. 26:** a análise ética de CHS ocorre em CEP com representação equânime da área e
+  relatores de CHS.
+- A Res. CNS 674/2022 (art. 30) passa a ler "gradação de risco" como "tipificação da pesquisa", e
+  o sistema novo separa CEP credenciado (risco baixo e moderado) e CEP acreditado (risco elevado)
+  (NT 43/2025, item 2.4). Não citar nível de risco como regra fechada (conferido em 2026-10-30).
 
 ### 1.3 Resolução CNS nº 304, de 9 de agosto de 2000 (povos indígenas)
-- **Fonte:** texto integral em cópia institucional (CEP/UESC), https://www.uesc.br/cep/res304.pdf
-  (conferido em 2026-10-28). **[conferir]** no portal do Conselho Nacional de Saúde ou no DOU:
-  a página oficial da BVS para esta resolução retornou erro 404 na conferência.
+- **Fonte:** https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/atos-normativos/resolucoes/2000/resolucao-no-304.pdf
+  (conferido em 2026-10-30). O PDF traz o despacho de homologação do Ministro; a ficha da página
+  diz "Não Homologada". Para uso formal, conferir no DOU.
 - **Objeto:** normas para pesquisas envolvendo seres humanos na área de povos indígenas;
-  complementa a Res. CNS 196/96 (hoje revogada pela 466/2012; a relação entre a 304 e a 466 é
-  **[conferir]**).
+  complementa a Res. CNS 196/96. A 466/2012 revoga só as Res. 196, 303 e 404 (XIV), portanto não
+  revogou a 304, e mantém "estudos com populações indígenas" como área temática (IX.4, item 5). A
+  304 continua válida no que não contrariar a Lei 14.874/2024 (Decreto 12.651/2025, art. 39).
 - **Item III.2.1:** respeitar "a visão de mundo, os costumes, atitudes estéticas, crenças
   religiosas, organização social, filosofias peculiares, diferenças lingüísticas e estrutura
   política".
@@ -78,12 +134,23 @@ Regras de uso pela skill:
 - **Item III.4:** é "eticamente inaceitável o patenteamento por outrem de produtos químicos e
   material biológico de qualquer natureza obtidos a partir de pesquisas com povos indígenas".
 - **Item III.5:** banco de DNA, linhagem de células ou outro material biológico de povos indígenas
-  só com concordância expressa da comunidade, proposta detalhada no protocolo e aprovação do CEP
-  e da CONEP.
+  só com concordância expressa da comunidade, proposta detalhada no protocolo e aprovação ética
+  (o texto diz "do CEP e da CONEP"; hoje, CEP acreditado: ver 1.0). A tramitação de protocolos de
+  criação de biobanco está suspensa, em caráter transitório, até manifestação da INAEP (NT
+  1/2026, item 6.1).
 - **Item IV.1 e IV.2:** o protocolo descreve o processo de anuência da comunidade e o de
   obtenção e registro do TCLE, adequado às peculiaridades culturais e linguísticas.
-- **Item VI.1:** cabe à CONEP, após a aprovação do CEP institucional, apreciar as pesquisas
-  dessa área temática.
+- **Item VI.1:** o texto atribui à CONEP a apreciação dessas pesquisas após o CEP institucional;
+  hoje a análise cabe a CEP acreditado (ver 1.0). Ao citar, não mencionar a CONEP.
+
+### 1.4 Ofício Circular nº 12/2023/CONEP/SECNS/MS, de 27 de julho de 2023 (TCC e pós-graduação)
+- **Fonte:** https://www.gov.br/conselho-nacional-de-saude/pt-br/acesso-a-informacao/sobre-o-conselho/camaras-tecnicas-e-comissoes/conep/legislacao/oficios-circulares/oficio-circular-no-12-de-27-de-julho-de-2023.pdf
+  (conferido em 2026-10-30)
+- Orienta quais pesquisas não são avaliadas pelo sistema de ética (art. 26 da Res. CNS 674/2022).
+  **Inciso VIII, alínea a:** "não se enquadram no inciso antecedente os Trabalhos de Conclusão de
+  Curso de Graduação, Dissertações de Mestrado, Teses de Doutorado, Monografias e similares",
+  que devem apresentar o protocolo ao sistema de ética. (Base para apontar TCC, dissertação ou
+  tese com seres humanos que alega dispensa de CEP por ser "atividade de ensino".)
 
 ---
 
@@ -107,14 +174,20 @@ Regras de uso pela skill:
   sem a aprovação da CEUA".
 - **Atenção:** a lei não traz um artigo que diga, com essas palavras, "toda pesquisa depende de
   aprovação prévia da CEUA". Para apontar a falta de CEUA, combinar Art. 1º, Art. 2º e Art. 23, I.
-- Pontos **[conferir]**: resoluções normativas do CONCEA sobre estudos de campo com animais
-  silvestres e sobre eutanásia. Não citar número de resolução do CONCEA.
+- **Resoluções normativas (RN) do CONCEA vigentes** (lista oficial em
+  https://www.gov.br/mcti/pt-br/composicao/conselhos/concea/paginas/publicacoes-legislacao-e-guia/legislacao-do-concea,
+  conferida em 2026-10-30): **RN 37/2018** (Diretriz da Prática de Eutanásia; revoga a RN
+  13/2013); **RN 40/2018** (capítulo do Guia sobre estudos com animais silvestres mantidos fora
+  de instalações de ensino ou pesquisa; DOU 25/07/2018); **RN 22/2015** (o mesmo para animais
+  domésticos); **RN 51/2021, alterada pela RN 73/2025** (CEUAs). Pode citar número e objeto; o
+  conteúdo dos anexos é **[conferir]**. Há também guias por grupo animal (RN 58 a 67/2023, entre
+  elas peixes, anfíbios e serpentes, aves e primatas): mencionar que existem, sem citar número.
 
 ### 2.2 Portaria ICMBio nº 748, de 19 de setembro de 2022 (SISBIO)
-- **Fonte:** texto da portaria impresso do SEI/ICMBio (20/09/2022), em repositório do governo
-  de SP: https://isigam.ambiente.sp.gov.br/sigam3/repositorio/570/documentos/Portaria%20ICMBIO%20n%c2%b0%20748,%20de%2019%20set%202022.pdf
-  (conferido em 2026-10-28). Link do ICMBio (https://www.icmbio.gov.br/cepsul/images/stories/legislacao/Portaria/2022/P_icmbio_748_2022_normatiza_sisbio.pdf)
-  retornou 403. Alterações posteriores a 2022: **[conferir]**.
+- **Fonte:** texto do SEI/ICMBio no portal do ICMBio,
+  https://www.gov.br/icmbio/pt-br/servicos/servicos-do-icmbio-no-gov.br/autorizacoes/pesquisa-nas-ucs-sisbio/SEI_ICMBio12336330Portaria.pdf
+  (conferido em 2026-10-30). A página do Sisbio no ICMBio, atualizada em 16/04/2026, lista só
+  esta portaria; não foi encontrada alteração posterior (a busca no DOU não foi concluída).
 - **Art. 1º, § 1º:** devem ser autorizadas por meio do Sisbio, quando com finalidade científica,
   didática ou de conservação: I - coleta de espécimes e de amostras biológicas de animais
   silvestres in situ; II - captura ou marcação in situ de animais silvestres; III - manutenção
@@ -162,9 +235,15 @@ Regras de uso pela skill:
 - **Art. 20:** cria o "Sistema Nacional de Gestão do Patrimônio Genético e do Conhecimento
   Tradicional Associado - SisGen".
 - **Art. 22:** o cadastro de acesso é feito no formulário eletrônico do SisGen.
-- **Art. 25:** o cadastro de remessa também é feito no SisGen.
-- Pontos **[conferir]**: termo de transferência de material para remessa; conhecimento
-  tradicional associado e consentimento prévio informado.
+- **Art. 22-A:** pesquisa sem finalidade econômica usa formulário específico no SisGen.
+- **Art. 25:** o cadastro de remessa também é feito no SisGen. **Art. 25, III:** exige o Termo
+  de Transferência de Material (TTM), firmado com a instituição sediada no exterior.
+- **Art. 26, § 2º:** as amostras viajam acompanhadas do TTM e do comprovante de cadastro.
+- **Art. 12, § 1º e § 2º:** o acesso a conhecimento tradicional associado de origem identificável
+  depende de consentimento prévio informado; de origem não identificável, não.
+- Os arts. 22-B a 22-E (incluídos pelo Decreto nº 13.014/2026) tratam de acesso por pessoa
+  jurídica estrangeira sem colaboração científica; raramente se aplicam a projeto acadêmico.
+- Arts. 12, 22-A, 25, 26 e 22-B a 22-E conferidos em 2026-10-30.
 
 ---
 
@@ -207,16 +286,20 @@ skill só aponta o que é checável no próprio projeto sem a norma:
 - elementos óbvios faltando numa referência (autor, título, ano, periódico/editora).
 E recomenda conferir a edição exigida pelo programa (muitos editais ainda pedem edições antigas).
 
-| Norma | Título | Edição | Fonte da edição (consulta em 2026-10-28) |
+Fonte das edições: catálogo da ABNT (https://www.abntcatalogo.com.br, busca pelo número da
+norma), consultado em 2026-10-30. Não citar número de edição ("3ª edição" etc.): só o ano.
+
+| Norma | Título | Edição em vigor | Anterior |
 |---|---|---|---|
-| ABNT NBR 15287 | Informação e documentação: projeto de pesquisa: apresentação | 2025 (edições anteriores: 2005, 2011) | https://normas.com.br/visualizar/abnt-nbr-nm/24874/abnt-nbr15287-informacao-e-documentacao-projeto-de-pesquisa-apresentacao (a página mostra "Vigente" e também um aviso de cancelamento: **[conferir]** o status) |
-| ABNT NBR 6023 | Informação e documentação: referências: elaboração | 2025, 3ª edição (anterior: 2018) **[conferir]** | cópia institucional citada em busca (UFES); não conferida no catálogo da ABNT |
-| ABNT NBR 10520 | Informação e documentação: citações em documentos: apresentação | 2023, 2ª edição **[conferir]** | guias de bibliotecas universitárias (UFV, IFCE, Unifor, UFC); não conferida no catálogo da ABNT |
-| ABNT NBR 14724 | Informação e documentação: trabalhos acadêmicos: apresentação | 2024, 4ª edição (16.12.2024) **[conferir]** | cópia institucional (UNIFESSPA); não conferida no catálogo da ABNT |
+| ABNT NBR 15287 | Informação e documentação: projeto de pesquisa: apresentação | 2025 (publicada em 18/03/2025) | 2011 (cancelada em 18/03/2025) |
+| ABNT NBR 6023 | Informação e documentação: referências: elaboração | 2025 (publicada em 21/05/2025; equivale à 6023:2018 com a Emenda 1:2025) | 2018 |
+| ABNT NBR 10520 | Informação e documentação: citações em documentos: apresentação | 2023 (publicada em 19/07/2023) | 2002 |
+| ABNT NBR 14724 | Informação e documentação: trabalhos acadêmicos: apresentação | 2024 (publicada em 16/12/2024; Errata 1 de 01/04/2025, incorporada na Versão Corrigida:2025) | 2011 |
 
 - Objetivo da NBR 15287 (do catálogo acima): "Esta Norma especifica os princípios gerais para a
   elaboração de projetos de pesquisa." Estrutura exigida (elementos pré-textuais, textuais e
-  pós-textuais): **[conferir]**.
+  pós-textuais): **[conferir]**. Normas complementares indicadas pelo catálogo: NBR 6023:2025,
+  6024:2012, 6027:2012, 10520:2023 e 12225:2023.
 - NBR 10520:2023, sobrenome em caixa alta ou baixa dentro dos parênteses: os guias de biblioteca
   indicam mudança em relação à edição de 2002. **[conferir]**; não apontar caixa do sobrenome
   como erro.
@@ -224,8 +307,10 @@ E recomenda conferir a edição exigida pelo programa (muitos editais ainda pede
 ---
 
 ## Pendências de conferência (para o mantenedor)
-- [ ] Res. CNS 304/2000 no portal do CNS ou no DOU (hoje conferida em cópia institucional).
-- [ ] Res. CNS 466/2012: itens sobre CONEP, prontuário e dispensa de TCLE.
-- [ ] Resoluções normativas do CONCEA aplicáveis a campo e eutanásia.
-- [ ] Alterações da Portaria ICMBio 748/2022 depois de 2022.
-- [ ] Edições e status das quatro NBR no catálogo da ABNT; estrutura da NBR 15287:2025.
+- [ ] Acompanhar a INAEP: resoluções próprias que substituam a 466/510 e o fim da transição
+  (https://www.gov.br/saude/pt-br/composicao/orgaos-colegiados/inaep/legislacao).
+- [ ] Res. CNS 304/2000 no DOU (ficha do portal diz "Não Homologada"; o PDF traz a homologação).
+- [ ] Conteúdo dos anexos das RN 37/2018 e 40/2018 do CONCEA.
+- [ ] Busca no DOU por alteração da Portaria ICMBio 748/2022.
+- [ ] Estrutura da NBR 15287:2025 e regra de caixa do sobrenome na NBR 10520:2023 (norma paga).
+- [ ] Data da Res. CNS 738/2024 (texto diz 01/02/2024; título na BVS diz 7/11/2024).

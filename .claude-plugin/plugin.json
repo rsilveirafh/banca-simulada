@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "banca-simulada",
   "displayName": "Banca simulada",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Revisa projetos de pesquisa como uma banca ou comitê avaliador: TCC, iniciação científica, mestrado, doutorado, pós-doutorado, edital de fomento e concurso docente. Coerência, hipóteses, método, aderência, ética (CEP, CEUA, SISBIO, SisGen, LGPD), referencial, ABNT e cronograma. Aponta e sugere; não reescreve.",
   "author": {
     "name": "Ricardo Silveira",
